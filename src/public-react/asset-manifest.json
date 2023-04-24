@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a40ef5d8.css",
+    "main.js": "./static/js/main.9fb3aebc.js",
+    "static/media/img3.jpg": "./static/media/img3.b0d9b2fd494bd24204d8.jpg",
+    "static/media/img22.jpg": "./static/media/img22.d884fddee773a21b82e0.jpg",
+    "static/media/pattermagic.jpg": "./static/media/pattermagic.028e9279f153c91aee6b.jpg",
+    "static/media/mariane1.jpg": "./static/media/mariane1.a31d6356950a308d4c3f.jpg",
+    "static/media/chaqueta.jpg": "./static/media/chaqueta.902ce03dbea7c604bcb8.jpg",
+    "static/media/Cerámica.jpeg": "./static/media/Cerámica.5ab183987ba5566bbda4.jpeg",
+    "static/media/Logotipo.png": "./static/media/Logotipo.404c09a83cf3059a6be5.png",
+    "index.html": "./index.html",
+    "main.a40ef5d8.css.map": "./static/css/main.a40ef5d8.css.map",
+    "main.9fb3aebc.js.map": "./static/js/main.9fb3aebc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a40ef5d8.css",
+    "static/js/main.9fb3aebc.js"
+  ]
+}

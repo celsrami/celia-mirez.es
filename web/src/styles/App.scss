@@ -1,0 +1,27 @@
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Archivo", sans-serif;
+}
+
+@import "core/variables";
+@import "core/reset";
+// @import "layout/header";
+@import "layout/main";
+// @import "layout/footer";
+
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 110px 1fr 40px;
+  @media all and (min-width: 768px) {
+    grid-template-rows: 85px 1fr 50px;
+  }
+  @media all and (min-width: 1020px) {
+    grid-template-rows: 85px 1fr 40px;
+  }
+}
+
+.main {
+  background-color: #eee;
+}

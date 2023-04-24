@@ -1,0 +1,27 @@
+.shop {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  &__link {
+    text-decoration: none;
+    color: black;
+  }
+
+  &__div-img {
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &__title {
+    // font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px 0 3px 0;
+    color: rgba(0, 0, 0, 0.829);
+  }
+}

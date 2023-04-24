@@ -1,0 +1,43 @@
+@import "../core/Variables";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  &__logo {
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  &__nav {
+    margin-top: 20px;
+    background-color: black;
+    // background-color: rgb(228, 179, 151);
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px;
+    opacity: 0.6;
+  }
+}
+
+.active {
+  border-bottom: 1px rgb(218, 209, 209) solid;
+  opacity: 1;
+}
